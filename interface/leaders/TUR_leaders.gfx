@@ -1,0 +1,16 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_portrait_TUR_Hulusi_Akar"
+		texturefile = "gfx//leaders//TUR//Portrait_TUR_Hulusi_Akar.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TUR_Asrin_Tok"
+		texturefile = "gfx//leaders//TUR//Portrait_TUR_Asrin_Tok.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TUR_Oguz_Kutalmis"
+		texturefile = "gfx//leaders//TUR//Portrait_TUR_Oguz_Kutalmis.png"
+	}
+
+}

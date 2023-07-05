@@ -1,0 +1,13 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_portrait_B01_Bandit_Leader"
+		texturefile = "gfx//leaders//B01//Portrait_B01_Bandit_Leader.png"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Z01_Zombie_Leader"
+		texturefile = "gfx//leaders//Z01//Portrait_Z01_Zombie_Leader.png"
+	}
+
+}

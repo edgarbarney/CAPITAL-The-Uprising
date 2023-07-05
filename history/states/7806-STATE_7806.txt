@@ -1,0 +1,25 @@
+state= {
+	id=7806
+	name="STATE_7806"
+	manpower = 501069
+	
+	state_category = town
+	
+	local_supplies = 0.0
+	provinces = { 7210 17688 }
+	
+	history = {
+		owner = GXC
+	
+		add_core_of = GXC
+		add_core_of = CHI
+		add_core_of = PRC
+	
+		buildings = {
+			infrastructure = 2
+		
+		}
+	}
+        manpower=500000
+        state_category = city
+}

@@ -1,0 +1,25 @@
+state= {
+	id=7998
+	name="STATE_7998"
+	manpower = 91171
+	
+	state_category = pastoral
+	
+	local_supplies = 0.0
+	provinces = { 9927 15214 }
+	
+	history = {
+		owner = MAN
+	
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+	
+		buildings = {
+			infrastructure = 2
+		
+		}
+	}
+        manpower=500000
+        state_category = city
+}

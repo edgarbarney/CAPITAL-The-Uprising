@@ -1,0 +1,215 @@
+TUR_Unification_by_ANK = {
+	2873 = {
+		set_state_owner_to = TUR # Create Turkey in Ankara
+	}
+	
+	TUR = {
+		ANK = {
+			every_unit_leader = {
+				set_nationality = TUR
+			}
+		}
+		hidden_effect = {
+			inherit_technology = ANK
+
+			ANK = {
+				set_variable = { global.at_state_dp = party_popularity_100@democratic }
+			
+				set_variable = { global.at_state_fs = party_popularity_100@fascism }
+				
+				set_variable = { global.at_state_cm = party_popularity_100@communism }
+				
+				set_variable = { global.at_state_na = party_popularity_100@neutrality }
+
+				set_variable = { global.at_state_ac = party_popularity_100@ancap }
+
+				set_variable = { global.at_state_an = party_popularity_100@ancom }
+			}
+			
+			set_popularities = {
+				democratic = global.at_state_dp
+				fascism = global.at_state_fs
+				communism = global.at_state_cm
+				neutrality = global.at_state_na
+				ancap = global.at_state_ac
+				ancom = global.at_state_an
+			}
+		}
+
+		annex_country = {
+			target = ANK
+			transfer_troops = yes
+		}
+		every_state = {
+			if = {
+				limit = {
+					is_core_of = ANK
+				}
+				add_core_of = TUR
+				remove_core_of = ANK
+			}
+			if = {
+				limit = {
+					is_core_of = TSK
+				}
+				remove_core_of = TSK
+			}
+			if = {
+				limit = {
+					is_core_of = TFT
+				}
+				remove_core_of = TFT
+			}
+		}
+		for_each_scope_loop = {
+			array = TUR.mainland_states
+			add_core_of = TUR
+		}
+		
+		change_tag_from = ANK
+	}
+}
+
+TUR_Unification_by_TSK = {
+	2873 = {
+		set_state_owner_to = TUR # Create Turkey in Ankara
+	}
+	
+	TUR = {
+		TSK = {
+			every_unit_leader = {
+				set_nationality = TSK
+			}
+		}
+		hidden_effect = {
+			inherit_technology = TSK
+
+			TSK = {
+				set_variable = { global.at_state_dp = party_popularity_100@democratic }
+			
+				set_variable = { global.at_state_fs = party_popularity_100@fascism }
+				
+				set_variable = { global.at_state_cm = party_popularity_100@communism }
+				
+				set_variable = { global.at_state_na = party_popularity_100@neutrality }
+
+				set_variable = { global.at_state_ac = party_popularity_100@ancap }
+
+				set_variable = { global.at_state_an = party_popularity_100@ancom }
+			}
+			
+			set_popularities = {
+				democratic = global.at_state_dp
+				fascism = global.at_state_fs
+				communism = global.at_state_cm
+				neutrality = global.at_state_na
+				ancap = global.at_state_ac
+				ancom = global.at_state_an
+			}
+		}
+
+		annex_country = {
+			target = TSK
+			transfer_troops = yes
+		}
+		every_state = {
+			if = {
+				limit = {
+					is_core_of = TSK
+				}
+				add_core_of = TUR
+				remove_core_of = TSK
+			}
+			if = {
+				limit = {
+					is_core_of = ANK
+				}
+				remove_core_of = ANK
+			}
+			if = {
+				limit = {
+					is_core_of = TFT
+				}
+				remove_core_of = TFT
+			}
+		}
+		for_each_scope_loop = {
+			array = TUR.mainland_states
+			add_core_of = TUR
+		}
+		
+		change_tag_from = TSK
+	}
+}
+
+TUR_Unification_by_TFT = {
+	2873 = {
+		set_state_owner_to = TUR # Create Turkey in Ankara
+	}
+	
+	TUR = {
+		TFT = {
+			every_unit_leader = {
+				set_nationality = TUR
+			}
+		}
+		hidden_effect = {
+			inherit_technology = TFT
+
+			TFT = {
+				set_variable = { global.at_state_dp = party_popularity_100@democratic }
+			
+				set_variable = { global.at_state_fs = party_popularity_100@fascism }
+				
+				set_variable = { global.at_state_cm = party_popularity_100@communism }
+				
+				set_variable = { global.at_state_na = party_popularity_100@neutrality }
+
+				set_variable = { global.at_state_ac = party_popularity_100@ancap }
+
+				set_variable = { global.at_state_an = party_popularity_100@ancom }
+			}
+			
+			set_popularities = {
+				democratic = global.at_state_dp
+				fascism = global.at_state_fs
+				communism = global.at_state_cm
+				neutrality = global.at_state_na
+				ancap = global.at_state_ac
+				ancom = global.at_state_an
+			}
+		}
+
+		annex_country = {
+			target = TFT
+			transfer_troops = yes
+		}
+		every_state = {
+			if = {
+				limit = {
+					is_core_of = TFT
+				}
+				add_core_of = TUR
+				remove_core_of = TFT
+			}
+			if = {
+				limit = {
+					is_core_of = TSK
+				}
+				remove_core_of = TSK
+			}
+			if = {
+				limit = {
+					is_core_of = ANK
+				}
+				remove_core_of = ANK
+			}
+		}
+		for_each_scope_loop = {
+			array = TUR.mainland_states
+			add_core_of = TUR
+		}
+		
+		change_tag_from = TFT
+	}
+}

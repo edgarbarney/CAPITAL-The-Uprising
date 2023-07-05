@@ -1,0 +1,33 @@
+characters={
+	B01_Bandit_Leader={
+		name=B01_Bandit_Leader
+		portraits={
+			civilian={
+				small = "GFX_idea_B01_Bandit_Leader"
+				large = "GFX_portrait_B01_Bandit_Leader"
+			}
+		}
+		country_leader={
+			ideology=anarchist_communism
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	Z01_Zombie_Leader={
+		name=Z01_Zombie_Leader
+		portraits={
+			civilian={
+				small = "GFX_idea_Z01_Zombie_Leader"
+				large = "GFX_portrait_Z01_Zombie_Leader"
+			}
+		}
+		country_leader={
+			ideology=anarchist_communism
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

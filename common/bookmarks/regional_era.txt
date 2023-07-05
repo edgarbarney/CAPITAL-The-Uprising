@@ -1,0 +1,52 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 2022.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "TSK"
+		default = yes
+		
+		"TSK"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = neutrality
+			#ideas = {
+			#	stiff_upper_lip
+			#	ENG_the_war_to_end_all_wars
+			#	george_v
+			#}
+			#focuses = {
+			#	ENG_imperial_federation
+			#	ENG_the_kings_party
+			#	ENG_organize_the_blackshirts
+			#}
+		}
+
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+
+		# minors from DLC ####
+		"TFT"={
+			minor = yes
+			history = "CAN_GATHERING_STORM_DESC"
+			ideology = ancap
+			#ideas = {
+			#	CAN_great_depression_1
+			#	CAN_conscription_crisis
+			#}
+			#focuses = {
+			#	CAN_skewer_the_eagle
+			#	CAN_north_american_alliance
+			#	CAN_join_comintern
+			#}
+		}
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

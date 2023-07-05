@@ -1,0 +1,19 @@
+﻿capital = 1012 # Doesn't matter anyway
+
+set_research_slots = 0
+
+set_convoys = 0
+set_stability = 0.0
+set_war_support = 0.0
+
+recruit_character = Z01_Zombie_Leader
+
+set_politics = {
+	ruling_party = ancom
+	last_election = "2021.1.1"
+	elections_allowed = no
+}
+
+set_popularities = {
+	ancom = 100
+}

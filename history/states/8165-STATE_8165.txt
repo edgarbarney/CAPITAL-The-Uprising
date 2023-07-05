@@ -1,0 +1,30 @@
+state= {
+	id=8165
+	name="STATE_8165"
+	manpower = 665672
+	
+	state_category = large_town
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.0
+	provinces = { 10733 16649 16650 16651 }
+	
+	history = {
+		owner = PRC
+	
+		add_core_of = PRC
+		add_core_of = CHI
+		add_core_of = PRC
+	
+		buildings = {
+			infrastructure = 1
+		
+		10733 = {
+				bunker = 2
+
+			}
+		}
+	}
+        manpower=500000
+        state_category = city
+}

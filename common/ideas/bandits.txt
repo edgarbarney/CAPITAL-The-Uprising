@@ -1,0 +1,18 @@
+ideas = {
+
+	country = {
+		bandits_entrenched_activity = {
+			picture = SPR_masters_of_our_own_fate
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				forced_surrender_limit = 0.5
+			}
+		}
+	}
+}

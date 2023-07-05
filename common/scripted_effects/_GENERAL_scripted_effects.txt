@@ -1,0 +1,27 @@
+#	Example:
+#
+#	example_effect = {
+#		add_political_power = 66
+#		add_popularity = {
+#			ideology = fascism
+#			popularity = 0.33
+#		}
+#	}
+#
+#
+#	In a script file:
+#
+#	effect = {
+#		example_effect = yes
+#	}
+#
+
+# USE THIS IN A STATE SCOPE
+spawn_zombie_badge = {
+	
+}
+
+# USE THIS IN A STATE SCOPE
+spawn_bandit_badge = {
+
+}

@@ -1,0 +1,21 @@
+ANK_decisions_banditwar_category = {
+	icon = GFX_decision_category_eng_move_to_secure_the_dominions
+
+	allowed = {
+		tag = ANK
+	}
+
+	visible = {
+		#if = {
+		#	limit = {
+		#		
+		#	}
+		#	
+		#}
+		has_war_with = B01 # Ankara bandits
+	}
+	
+	#available = {
+	#	
+	#}
+}
