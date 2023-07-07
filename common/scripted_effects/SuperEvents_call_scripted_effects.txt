@@ -1,7 +1,0 @@
-Call_SuperEvent_TurkeyUnification = {
-	every_country = {
-		news_event = CAPITAL_SuperEvents.TUR.0
-		
-		play_song = "CAPITAL_unification_TUR_ankara"
-	}
-}
