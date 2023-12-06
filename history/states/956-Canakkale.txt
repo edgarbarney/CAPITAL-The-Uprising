@@ -1,0 +1,29 @@
+
+state={
+	id=956
+	name="STATE_956"
+	manpower = 1077853
+	resources={
+
+	}
+
+	state_category = town
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			849 = {
+				naval_base = 3
+				coastal_bunker = 2
+			}
+		}
+	}
+	
+
+	provinces={
+		849 6864 9887
+	}
+
+	local_supplies=0.0 
+}

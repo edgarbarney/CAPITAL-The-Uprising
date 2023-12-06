@@ -1,4 +1,4 @@
-name="CAPITAL: The Uprising"
+name="CAPITAL The Uprising"
 tags={
 	"Zombie"
 	"Capital"
@@ -6,5 +6,6 @@ tags={
 }
 picture="thumbnail.png"
 replace_path="gfx/bg"
-supported_version="1.12.*"
+replace_path="history/states"
+supported_version="1.13.*"
 path="mod/CAPITAL"

@@ -1,0 +1,23 @@
+
+state={
+	id=944
+	name="STATE_944" # Ankara
+	manpower = 810284
+	resources={
+
+	}
+	
+	state_category = town
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		
+	}
+
+	provinces={
+		13276 13278
+	}
+
+	local_supplies=0.0 
+}
