@@ -1,0 +1,122 @@
+division_template = {
+	name = "Infantry Division"
+	#division_names_group = SCO_REBELS_01
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	#support = {
+    #   	recon = { x = 0 y = 1 }
+	#}
+}
+
+division_template = {
+	name = "Militia Division"
+	#division_names_group = SCO_REBELS_01
+	#force_allow_recruiting = yes
+	division_cap = 12
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+        militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+        militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+	}
+	#support = {
+    #   	recon = { x = 0 y = 1 }
+	#}
+}
+
+####### OOB #######
+units = {
+
+	# Polatlı Militia
+
+	division = {
+		location = 11784 
+		division_template = "Militia Division"
+		start_experience_factor = 0.05
+	}
+	division = {
+		location = 9901 
+		division_template = "Militia Division"
+		start_experience_factor = 0.05
+	}
+	division = {
+		location = 9901 
+		division_template = "Militia Division"
+		start_experience_factor = 0.05
+	}
+	
+	# Beypazari Militia
+
+	division = {
+		location = 13285
+		division_template = "Militia Division"
+		start_experience_factor = 0.05
+	}
+	division = {
+		location = 13285
+		division_template = "Militia Division"
+		start_experience_factor = 0.05
+	}
+	division = {
+		location = 13284
+		division_template = "Militia Division"
+		start_experience_factor = 0.05
+	}
+
+	# Kizilcahamam Militia
+	division = {
+		location = 13298 
+		division_template = "Militia Division"
+		start_experience_factor = 0.05
+	}
+	division = {
+		location = 13281
+		division_template = "Militia Division"
+		start_experience_factor = 0.05
+	}
+
+	#Infantries
+	division = {
+		location = 13297 
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 13296 
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 13277 
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+}
+
+#### Production
+instant_effect = { 
+	add_equipment_production = { 
+		equipment = { 
+			type = infantry_equipment_1
+			creator = "ANK" 
+		} 
+
+		requested_factories = 5
+		progress = 0.1
+		efficiency = 80
+	}
+}

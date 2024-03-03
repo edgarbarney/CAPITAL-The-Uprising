@@ -1,0 +1,45 @@
+
+state={
+	id=961
+	name="STATE_961"
+	manpower = 77853
+	resources={
+
+	}
+
+	state_category = town
+
+	history={
+		owner = B01
+		add_core_of = ANK
+		
+		add_extra_state_shared_building_slots = 8
+
+		start_resistance = yes
+		add_compliance = -100
+		add_resistance = 65
+
+		add_resistance_target = {
+			id = 961
+			amount = 60
+			occupied = ANK
+			occupier = B01
+			days = 365
+		}
+
+		victory_points = {
+			13308 5 # High victory points because of mils
+		}
+
+		buildings = {
+			arms_factory = 8 # Wow! Turkey's arms manifacturing city!
+		}
+	}
+	
+
+	provinces={
+		13308 804
+	}
+
+	local_supplies=0.0 
+}

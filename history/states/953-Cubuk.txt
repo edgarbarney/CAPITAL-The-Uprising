@@ -10,9 +10,13 @@ state={
 	state_category = town
 
 	history={
-		owner = TUR
-		add_core_of = TUR
+		owner = B01
+		add_core_of = ANK
 		
+		start_resistance = yes
+		add_compliance = -100
+		add_resistance = 55
+
 	}
 
 	provinces={

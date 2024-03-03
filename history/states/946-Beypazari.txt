@@ -10,8 +10,8 @@ state={
 	state_category = town
 
 	history={
-		owner = TUR
-		add_core_of = TUR
+		owner = ANK
+		add_core_of = ANK
 		
 	}
 

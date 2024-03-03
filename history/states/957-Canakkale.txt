@@ -1,0 +1,29 @@
+
+state={
+	id=957
+	name="STATE_957"
+	manpower = 1077853
+	resources={
+
+	}
+
+	state_category = town
+
+	history={
+		owner = TFT
+		add_core_of = TFT
+		buildings = {
+			849 = {
+				naval_base = 3
+				coastal_bunker = 2
+			}
+		}
+	}
+	
+
+	provinces={
+		849 6864 9887
+	}
+
+	local_supplies=0.0 
+}

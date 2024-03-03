@@ -1,0 +1,118 @@
+characters={
+	TUR_Hulusi_Akar={
+		name=TUR_Hulusi_Akar
+		portraits={
+			civilian={
+				small = "GFX_idea_TUR_Hulusi_Akar"
+				large="GFX_portrait_TUR_Hulusi_Akar"
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUR_Hulusi_Akar
+			allowed = {
+				original_tag = TUR
+				original_tag = TSK
+			}
+			#available = {
+			#	custom_trigger_tooltip = {
+			#		tooltip = TUR_can_only_have_one_prime_minister_tt
+			#		NOT = {
+			#			OR = {
+			#			#	has_idea = TUR_ismet_inonu 
+			#			}
+			#		}
+			#	}
+			##	has_completed_focus = TUR_fully_integrate_the_is_bank 
+			#}
+			visible = {
+				NOT = {
+					#has_country_flag = TUR_menderes_rebellion 
+					has_country_leader = {
+						character = TUR_Hulusi_Akar
+						ruling_only = yes 
+					}
+				}
+			}
+			#traits = {
+			#	prime_minister_bayar 
+			#}
+		}
+	}
+
+	TUR_Asrin_Tok={
+		name=TUR_Asrin_Tok
+		portraits={
+			civilian={
+				small = "GFX_idea_TUR_Asrin_Tok"
+				large="GFX_portrait_TUR_Asrin_Tok"
+			}
+		}
+		country_leader={
+			ideology=minarchism
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUR_Asrin_Tok
+			allowed = {
+				original_tag = TUR
+				original_tag = TSK
+			}
+
+			visible = {
+				NOT = {
+					has_country_leader = {
+						character = TUR_Asrin_Tok
+						ruling_only = yes 
+					}
+				}
+			}
+		}
+	}
+	
+	TUR_Oguz_Kutalmis={
+		name=TUR_Oguz_Kutalmis
+		portraits={
+			civilian={
+				small = "GFX_idea_TUR_Oguz_Kutalmis"
+				large="GFX_portrait_TUR_Oguz_Kutalmis"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_liberalism
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUR_Oguz_Kutalmis
+			allowed = {
+				original_tag = TUR
+				original_tag = ANK
+			}
+
+			visible = {
+				NOT = {
+					has_country_leader = {
+						character = TUR_Oguz_Kutalmis
+						ruling_only = yes 
+					}
+				}
+			}
+		}
+	}
+
+}

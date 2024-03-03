@@ -10,8 +10,8 @@ state={
 	state_category = town
 
 	history={
-		owner = TUR
-		add_core_of = TUR
+		owner = TFT
+		add_core_of = TFT
 
 		buildings = {
 			infrastructure = 2

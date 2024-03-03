@@ -1,0 +1,9 @@
+# Bandits
+B01	= "countries/Bandits.txt" # Starts as Ankara Bandits
+B02	= "countries/Bandits.txt"
+B03	= "countries/Bandits.txt"
+
+#Zombies
+Z01	= "countries/Zombies.txt"
+Z02	= "countries/Zombies.txt"
+Z03	= "countries/Zombies.txt"

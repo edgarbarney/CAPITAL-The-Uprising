@@ -1,0 +1,40 @@
+﻿capital = 955
+
+
+# Starting tech
+
+set_research_slots = 2
+
+#2022.1.1 = {
+	
+	add_manpower = 100420
+
+	add_ideas = {
+		extensive_conscription
+		export_focus
+		partial_economic_mobilisation
+	}
+	
+#}
+
+set_politics = {
+	ruling_party = stalinism
+	last_election = "2021.1.1"
+	elections_allowed = no
+}
+set_popularities = {
+	stalinism = 63
+	democratic_nationalism = 3
+	conservative = 12
+	market_liberal = 3
+	social_liberal = 7
+	democratic_socialism = 6
+	leninism = 2
+	authoritarian_democracy = 4
+}
+
+set_convoys = 0
+set_stability = 0
+set_war_support = 0
+
+

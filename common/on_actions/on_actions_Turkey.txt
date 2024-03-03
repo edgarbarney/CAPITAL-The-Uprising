@@ -1,0 +1,37 @@
+on_actions = {
+	on_capitulation_immediate = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = { 
+						tag = B01
+						has_country_flag = bandits_ankara
+					}
+					FROM = { tag = ANK }
+					# TODO: All majors supporting bandits should be capitulated
+					#all_country = {
+					#	AND = {
+					#		is_major = yes
+					#		is_in_faction_with = B01
+					#		has_capitulated = yes
+					#	}
+					#}
+				}
+				ANK  = {
+					white_peace = {
+						tag = B01
+						message = ANK_Bandit_Clean
+					}
+					remove_wargoal = {
+						type = all
+						target = B01
+					}
+					clr_country_flag = bandits_ankara
+					annex_country = {
+						target = B01
+					}
+				}
+			}
+		}
+	}
+}

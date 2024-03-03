@@ -16,7 +16,7 @@ guiTypes = {
 
 		background = {
 			name = "Background"
-			spriteType ="GFX_tiled_bg"
+			spriteType ="GFX_tiled_filled_bg"
 		}
 
 		containerWindowType = {
@@ -245,7 +245,7 @@ guiTypes = {
 
 				containerWindowType = {
 					name = "political_pie_chart"
-					position = { x = 141 y = 9 }
+					position = { x = 139 y = 13 }
 					size = { width=330 height=30 }
 					clipping = no
 
@@ -389,21 +389,21 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "diplomatic_actions"
-				position = { x = 272 y = 395 }
-				size = { width = 265 height = -60 }
+				position = { x = 272 y = 402 }
+				size = { width = 265 height = -57 }
 				verticalScrollbar = "right_vertical_slider"
 				scroll_wheel_factor = 40
 				smooth_scrolling = yes
 
-				iconType = {
-					name = "win_header_short"
-					position = { x = 8 y= 6 }
-					spriteType = "GFX_win_header_short"
-				}
+				#iconType = {
+				#	name = "win_header_short"
+				#	position = { x = 8 y= 6 }
+				#	spriteType = "GFX_win_header_short"
+				#}
 
 				gridboxtype = {
 					name = "actions_grid"
-					position = { x = 10 y = 32 }
+					position = { x = 10 y = 0 }
 					size = { width = 255 height = 100%% }
 					slotsize = { width = 255 height = 29 }
 					max_slots_horizontal = 1
@@ -426,10 +426,9 @@ guiTypes = {
 					position = { x = -2 y = -14 }
 				}
 
-
 				instantTextBoxType = {
 					name = "spirit_title"
-					position = { x = 0 y = 0 }
+					position = { x = 10 y = 5 }
 					font = "hoi_18mbs"
 					borderSize = {x = 0 y = 0}
 					text = "FE_COUNTRY_SPIRIT"
@@ -728,12 +727,12 @@ guiTypes = {
 
 			#------------------------- END INFO TAB ----------------------------
 
-			iconType ={
-				name ="diplomacy_bottom"
-				spriteType = "GFX_main_screens_bottom"
-				position = { x = 3 y = -55 }
-				Orientation = "LOWER_LEFT"
-			}
+			#iconType ={
+			#	name ="diplomacy_bottom"
+			#	spriteType = "GFX_main_screens_bottom"
+			#	position = { x = 3 y = -55 }
+			#	Orientation = "LOWER_LEFT"
+			#}
 
 			buttonType = {
 				name = "back_button"
