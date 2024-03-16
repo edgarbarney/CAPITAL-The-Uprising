@@ -1,0 +1,10 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_portrait_Generic_Zombies
+        texturefile = gfx/leaders/TUR/AsrinTok.png
+    }
+    spriteType = {
+        name = GFX_portrait_Generic_Bandits
+        texturefile = gfx/leaders/TUR/HulusiAkar.png
+    }
+}
